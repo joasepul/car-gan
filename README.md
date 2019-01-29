@@ -7,4 +7,4 @@ been explored using Google's BigGAN.
 We will be using Stanford's car dataset:
   https://www.kaggle.com/jessicali9530/stanford-cars-dataset
 
-For more information see our project proposal.
+For more information see our [project proposal](project-proposal.pdf).
