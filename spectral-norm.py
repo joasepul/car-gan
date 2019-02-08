@@ -22,7 +22,6 @@ def spectral_norm(w):
     def l2_norm(v):
         return K.sum(v ** 2) ** 0.5
 
-
     w_dim = w.shape.as_list()[-1]
     # Initialize random vector u
     u = K.random_normal(shape=[1, w_dim])
@@ -45,6 +44,8 @@ def spectral_norm(w):
     return w_sn
 
 # test with random wieghts
-W = K.random_normal((100, 100))
+W = K.random_normal((1034, 100))
+
+# Shape of wieght tensor is maintained, only normalized.
 print(W)
-spectral_norm(W)
+print(spectral_norm(W))
